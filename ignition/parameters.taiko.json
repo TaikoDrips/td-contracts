@@ -1,0 +1,7 @@
+{
+    "StakingERC20Module": {
+        "token": "0xa9d23408b9ba935c230493c40c73824df71a0975",
+        "minStake": "10000000000000000",
+        "maxStakeSupply": 0
+    }
+}
