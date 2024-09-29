@@ -1,0 +1,7 @@
+{
+  "StakingERC20Module#Pauser": "0x2427c22A35A6d7d141c1979160e7852a5D9Adfd6",
+  "StakingERC20Module#StakingERC20": "0xdb9182Add40Eacad7285A5BC17C3985e4eacF1Fb",
+  "StakingERC20Module#PauserProxy": "0xCA7190486177b2B87F80EcC7b771a9edC309E3eA",
+  "StakingERC20Module#ProxyAdmin": "0x835f1db1d90dEE14dFD86c06f38dAEE5C361D4B6",
+  "StakingERC20Module#StakingERC20Proxy": "0xb3149C9073580F91CA1FF703a19FDd0f9e082d91"
+}

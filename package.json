@@ -7,11 +7,14 @@
   "license": "MIT",
   "scripts": {
     "deploy:localhost": "hardhat ignition deploy ignition/modules/StakingERC20.js --parameters ignition/parameters.json  --network localhost",
+    "deploy:mantle": "hardhat ignition deploy ignition/modules/StakingERC20.js --parameters ignition/parameters.mantle.json --network mantle",
     "deploy:taiko": "hardhat ignition deploy ignition/modules/StakingERC20.js --parameters ignition/parameters.taiko.json --network taiko",
     "compile": "hardhat compile",
     "coverage": "hardhat coverage",
     "lint": "solhint 'contracts/**/*.sol' && prettier -c 'contracts/**/*.sol'",
     "node": "hardhat node",
+    "verify:mantle": "hardhat ignition verify chain-5000",
+    "verify:taiko": "hardhat ignition verify chain-167000",
     "test": "hardhat test"
   },
   "devDependencies": {

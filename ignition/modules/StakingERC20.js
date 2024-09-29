@@ -9,6 +9,7 @@ module.exports = buildModule("StakingERC20Module", (m) => {
   const allocator = m.getParameter("allocator", ZeroAddress);
 
   const proxyAdminOwner = m.getAccount(0);
+  console.log("Signer", proxyAdminOwner);
 
   const pauser = m.contract("Pauser");
   const encodedPauserInitCall = m.encodeFunctionCall(pauser, "initialize", [
