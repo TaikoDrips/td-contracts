@@ -88,6 +88,7 @@ contract StakingERC20 is ProtocolEvents, BareVaultUpgradable, LockupUpgradable, 
         allocator = init.allocator;
         pauser = IPauser(init.pauser);
         // initial durations
+        acceptedDurations.add(60 days);
         acceptedDurations.add(91 days);
         acceptedDurations.add(182 days);
         acceptedDurations.add(365 days);
