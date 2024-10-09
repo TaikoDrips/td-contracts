@@ -39,11 +39,11 @@ module.exports = {
         },
       },
       {
-        network: 'taiko',
+        network: "taiko",
         chainId: 167000,
         urls: {
-          apiURL: 'https://api.taikoscan.io/api',
-          browserURL: 'https://taikoscan.io',
+          apiURL: "https://api.taikoscan.io/api",
+          browserURL: "https://taikoscan.io",
         },
       },
     ],
